@@ -279,3 +279,6 @@ Student.prototype.scopeArrow = () => console.log(this);
 // When joe.scopeArrow() is invoked, "this" refers to the global object which is the window object in a browser.
 // 3. Explain why "this" is different when an arrow function is used.
 // Arrow functions capture and retain the value of "this" from their surrounding context during their creation, leading to static scoping, which can make them unsuitable for methods within constructor functions that depend on dynamic "this" binding.
+
+
+// Making this comment so i can push to a new branch
